@@ -1,0 +1,44 @@
+.subscription-box__title {
+    color: $white;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.subscription-box__content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.subscription-box__price {
+    color: $light-gray;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.subscription-box__price span {
+    font-size: 30px;
+    font-weight: 700;
+    color: $white;
+}
+
+.subscription-box__desc {
+    color: $white;
+}
+
+.subscription-box__btn {
+    text-align: center;
+    background-color: $bright-yellow;
+    padding: 15px 0;
+    color: $white;
+    font-weight: 700;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 12px 16px -11px rgba(0,0,0,0.3);
+    box-shadow: 0px 12px 16px -11px rgba(0,0,0,0.3);
+    margin-top: 5px;
+
+    &:hover {
+        background-color: #86b916;
+    }
+}

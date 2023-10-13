@@ -1,0 +1,18 @@
+.commitment-box__title {
+    color: $white;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.commitment-box__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6px;
+}
+
+.commitment-box__item {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 400;
+}

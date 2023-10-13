@@ -1,0 +1,36 @@
+.intro-box__title {
+    font-size: 24px;
+    color: $cyan;
+    font-weight: 700;
+    @include sm {
+        font-size: 20px;
+        margin-top: 5px;
+    }
+}
+
+.intro-box__content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    @include sm {
+        gap: 20px;
+    }
+}
+
+.intro-box__guarantee {
+    color: $bright-yellow;
+    font-size: 18px;
+    font-weight: 700;
+    @include sm {
+        font-size: 15px;
+    }
+}
+
+.intro-box__desc {
+    color: $grayish-blue;
+    line-height: 1.6em;
+    @include sm {
+        font-size: 14px;
+        line-height: 1.8em;
+    }
+}
