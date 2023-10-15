@@ -128,12 +128,17 @@ body {
 }
 
 .wrapper {
-  height: 100%;
+  min-height: 100vh;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: hsl(204, 43%, 93%);
+}
+@media screen and (max-width: 375px) {
+  .wrapper {
+    padding: 80px 0;
+  }
 }
 
 .box {
